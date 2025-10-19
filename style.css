@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Bebas+Neue&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font01: "BBH Sans Hegarty", sans-serif;
+    --font02: "Sriracha", cursive;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    width: 100vh;
+    width: 100vw;
+    background-color: darkgrey;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bolder;
+    font-variant:inherit;
+    font-size: 1.7em;
+    font-family: var(--font01);
+
+}
+
+header p{
+    padding-bottom: 50px;
+}
+
+ a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+section{
+    font-family: var(--font02);
+    font-size: 1.5em;
+    line-height: 1.8em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 15px;
+    width: 98vw;
+
+}
+
+section p{
+    padding-bottom: 2em;
+}
+
+.imagem p{
+    text-shadow: 2px 2px 0px black;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+.normal{
+    background-color: white;
+
+}
+
+.imagem{
+    box-shadow: inset 2px 2px 13px 0px black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: darkgrey;
+    color: white;
+}
+
+#fro{
+    background-image: url(imagens/imagem-fro.jpg);
+    background-position: center center;
+}
+
+#paisagem{
+    background-image:url(imagens/imagem-paisagem.jpg) ;
+    background-position: center center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
